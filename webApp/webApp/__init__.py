@@ -44,6 +44,8 @@ def otput_folder(json_name):
    return send_from_directory('./output', f'{json_name}')
 
 
+if __name__ == '__main__':
+   app.run()
 
 #   gunicorn server1:app
 

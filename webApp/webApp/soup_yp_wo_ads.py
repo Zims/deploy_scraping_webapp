@@ -15,7 +15,7 @@ def output_file(*args):
         file_name = args[1]
         res = requests.get(search_url)
         soup = BeautifulSoup(res.text, 'html.parser')
-        organic_pane = soup.find_all(lambda tag: tag.name == 'div' and 
+        organic_pane = soup.find_all(lambda tag: tag.name == 'div' and
                                tag.get('class') == ['result'])
 
         for business in organic_pane:
@@ -59,5 +59,7 @@ def output_file(*args):
     with open(f'output/{file_name}-{current_time}.json', 'w') as json_file:
         global json_name
         json_name = f'{file_name}-{current_time}.json'
+        # json_name = f'pp.json'
+        
         print(json_name)
         json.dump(top_30, json_file)

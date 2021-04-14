@@ -1,0 +1,12 @@
+.vscode/settings.json
+.idea/deploy_scraping_webapp.iml
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
+.idea/inspectionProfiles/profiles_settings.xml
+.idea/inspectionProfiles/Project_Default.xml
+__pycache__/__init__.cpython-39.pyc
+__pycache__/remove_files.cpython-39.pyc
+__pycache__/server1.cpython-39.pyc
+__pycache__/soup_yp_wo_ads.cpython-39.pyc
+output/Skiing_in_CO-11:28_04-21.json
