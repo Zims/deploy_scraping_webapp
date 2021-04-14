@@ -1,7 +1,7 @@
 cmd+p - search files
 cmd+\ - open side-by-side
 cmd+w - close tab
-ctrl+tab - tob trough open tabs
+ctrl+tab - tab trough open tabs
 cmd + , - open settings
 shift+option up/down - duplicate line
 cmd + d - select the whole word
